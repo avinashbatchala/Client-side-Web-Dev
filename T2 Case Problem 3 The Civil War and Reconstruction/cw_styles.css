@@ -117,7 +117,14 @@ ol a {
 
 
 /* Section Styles */
+section {
+	background-color: rgb(220, 220, 220);
+}
 
+section header h1 {
+	font-size: 2.2em;
+	padding-left: 10px;
+}
 
 
 
