@@ -88,6 +88,31 @@ a:hover, a:active {
 
 /* Outline Styles */
 
+#outline {
+	color: rgb(51, 51, 51);
+	font-size: 0.8em;
+}
+
+#outline h1 {
+	text-align: center;
+}
+
+nav > ol {
+	line-height: 2em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	list-style-type: upper-roman;
+}
+
+nav > ol ol {
+	list-style-type: upper-alpha;
+}
+
+ol a {
+	color: rgb(101, 101, 101);
+}
 
 
 
