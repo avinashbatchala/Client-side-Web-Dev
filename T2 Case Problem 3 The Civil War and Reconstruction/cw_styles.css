@@ -16,7 +16,9 @@
 
 /* Structural Styles */
 
-
+html {
+   background-color: rgb(151, 151, 151);
+}
 
 
 /* Body Header Styles */
