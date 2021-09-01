@@ -20,7 +20,27 @@ html {
    background-color: rgb(151, 151, 151);
 }
 
+body {
+	background-color: rgb(180, 180, 223);
+	font-family: Verdana, Geneva, sans-serif;
+}
 
+h1, h2 {
+   font-weight: normal;
+}
+
+nav a:link{
+   text-decoration: none;
+}
+
+footer {
+   color: white;
+   background-color: rgb(101, 101, 101);
+   font-size: 0.8em;
+   text-align: center;
+   padding-top: 1px;
+   padding-bottom: 1px;
+}
 /* Body Header Styles */
 
 
