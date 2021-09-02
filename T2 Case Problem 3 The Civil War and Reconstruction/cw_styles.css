@@ -130,8 +130,23 @@ section header h1 {
 
 /* Article Styles */
 
+article h2 {
+	font-size: 1.4em;
+}
+
+article p:first-of-type::first-letter {
+	font-size: 2em;
+	align-content: vertical-align;
+}
 
 
 
 /* Aside Styles */
 
+aside {
+	font-size: 0.9em;
+}
+
+aside h1 {
+	font-size: 1.4em;
+}
