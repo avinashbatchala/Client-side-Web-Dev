@@ -44,6 +44,10 @@ article p:first-of-type::first-letter {
 
 /* Aside Styles */
 
+aside {
+	float: left;
+	width: 768px;
+}
 
 
 
