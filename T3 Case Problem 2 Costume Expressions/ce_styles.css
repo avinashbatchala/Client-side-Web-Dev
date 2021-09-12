@@ -5,8 +5,8 @@
    Case Problem 2
    
    Style Sheet for Costume Expressions Front Page
-   Author: 
-   Date:   
+   Author:  Avinash Krupakar Reddy Batchala
+   Date:   9/9/2021
    
    Filename: ce_styles.css
 */
@@ -14,8 +14,29 @@
 
 /* Window and Body Styles */
 
+html {
+   background-color: rgb(101, 101, 101);
+}
 
+body {
+   background-color: white;
+   font-family: Verdana, Geneva, Arial, sans-serif;
+   text-align: center;
+   margin: 20px auto;
+   max-width: 960px;
+   min-width: 320px;
+   position: relative;
+   width: 95%;
+}
 
+img {
+   display: block;
+   width: 100%;
+}
+
+nav a {
+   text-decoration: none;
+}
 /* Body Header Styles */
 
 
