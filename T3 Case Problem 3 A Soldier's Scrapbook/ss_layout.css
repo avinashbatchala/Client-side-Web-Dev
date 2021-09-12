@@ -52,7 +52,16 @@ aside {
 
 
 /* Map Styles */
+div#battleMap {
+	width: 688px;
+	margin: 20px auto;
+	position: relative;
+}
 
+img#mapImage {
+	display: block;
+	width: 100%;
+}
 
 
 
