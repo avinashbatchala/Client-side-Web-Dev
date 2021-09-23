@@ -14,7 +14,9 @@
 */
 
 /* HTML Styles */
-
+html {
+	background: url(sd_back1.png) 100% / cover fixed;
+}
 
 
 /* Body Styles */
