@@ -58,5 +58,7 @@ img#mportrait {
 
 
 /* Footer Styles */
-
+body > footer {
+	border-top: 2px solid rgb(171, 171, 171);
+}
 
