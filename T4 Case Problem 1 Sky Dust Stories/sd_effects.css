@@ -38,7 +38,9 @@ body {
 /* Navigation List Styles */
 
 
-
+body > header a {
+	border: 5px outset rgb(211, 211, 255);	
+}
 
 /* Section Left Styles */
 
