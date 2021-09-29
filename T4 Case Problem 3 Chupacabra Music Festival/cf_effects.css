@@ -62,70 +62,6 @@ section#right aside{
 
 /* Cube Styles */
 
-
-
-/*
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 4
-   Case Problem 3
-   
-   Design Styles for the Chupacabra Music Fest
-   Author: Avinash Krupakar Reddy Batchala
-    Date:   9/29/2021
-   
-   Filename: cf_effects.css
-
-*/
-
-/* HTML Styles */
-
-html {
-	background-image: url(cf_back1.png);
-	background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
-}
-
-
-/* Body Styles */
-body {
-	background-color: rgba(255, 255, 255, 0.3);
-}
-
-
-/* Body Header Styles */
-body > header {
-	background-color: rgba(51, 51, 51, 0.5);
-}
-
-
-/* Aside Styles */
-section aside {
-	border: 10px double;
-	color: rgba(92, 42, 8, 0.3);
-	border-radius: 30px;
-}
-
-section aside h1 {
-	border-top-left-radius: 30px;
-	border-top-right-radius: 30px;
-}
-
-section {
-	perspective: 450px;
-}
-
-section#left aside{
-	transform: rotateY(25deg);
-}
-
-section#right aside{
-	transform: rotateY(-25deg);
-}
-
-
-/* Cube Styles */
-
 div#cube {
 	position: relative;
 	margin-top: 180px;
@@ -133,7 +69,7 @@ div#cube {
 	margin-left: auto;
 	margin-right: auto;
 	width: 400px;
-	height: 450px;
+	height: 400px;
 	perspective: 450px;
 }
 
@@ -141,6 +77,7 @@ div.cube_face {
 	position: absolute;
 	width: 400px;
 	height: 400px;
+
 }
 	/* Top face of the cube */
 div#cube_top {
@@ -162,6 +99,5 @@ div#cube_right {
 div#cube_front {
 	transform: translateZ(-50px);
 }
-
 
 
